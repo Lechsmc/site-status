@@ -17,10 +17,6 @@
     <n-flex :size="4" class="text" align="center" vertical>
       <n-p depth="3">
         <n-text depth="3" @click="jumpLink(metaData.project)">
-
-          SiteStatus
-
-        </n-text>
           SiteStatus
         </n-text>
         Version {{ version }}
